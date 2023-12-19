@@ -1,0 +1,9 @@
+﻿@model IEnumerable<Getri_PartialViews.Models.Products>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+@Html.Partial("_ProductDetails", Model)
